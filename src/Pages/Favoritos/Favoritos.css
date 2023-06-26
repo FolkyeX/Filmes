@@ -1,0 +1,93 @@
+.Meus-Filmes{
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Meus-Filmes h1{
+    margin-bottom: 14px;
+}
+
+.Meus-Filmes span{
+    white-space: nowrap;
+    font-size: 20px;
+}
+
+.Meus-Filmes ul{
+    width: 500px;
+    justify-content: center;
+    margin-top: 20px;
+    margin-right: 29%;
+    margin-left: 29%;
+}
+
+.Meus-Filmes ul li{
+    white-space: nowrap;
+    list-style: none;
+    display: flexbox;
+    justify-content: center;
+    margin-bottom: 55px;   
+    margin-right: 26%;
+    margin-left: 26%;
+}
+
+
+.Meus-Filmes div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.Meus-Filmes div a{
+    text-decoration: none;
+    color: #116feb;
+    margin-right: 15px;
+}
+
+.VoltarFilmes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px;
+    font-size: 15px;
+    background-color: #116FEB;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 8px;
+    margin-top: 30px;
+    transition: all 0.5s;
+}
+
+.VoltarFilmes:hover{
+    color: #fff;
+    background-color: #013f91;
+    transition: all 0.5s;
+}
+
+.btf{
+    background-color: #116FEB;
+    color: #fff;
+    width: 140px;
+    height: 22px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 4px;
+    border-style: none;
+    cursor: pointer;
+    transition: all 0.5s;
+    margin-right: 8px;
+}
+
+.btf:hover{
+    background-color: #013f91;
+}
+
+.btfL{
+    transition: all 0.5s;
+}
+.btfL:hover{
+    color: #013f91;
+    transition: all 0.5s;
+}

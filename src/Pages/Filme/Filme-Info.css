@@ -1,0 +1,84 @@
+.Filme-Info{
+    margin-top: 18px;
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    padding: 0 8px;
+    margin: 0 auto;
+}
+
+.Filme-Info h1{
+    margin: 14px 0;
+}
+
+.Filme-Info img{
+    border-radius: 8px;
+    width: 800px;
+    max-width: 100%;
+    max-height: 340px;
+    object-fit: cover;
+}
+
+.Filme-Info h3{
+    margin-top: 14px;
+}
+
+.Filme-Info span{
+    margin: 8px 0;
+}
+
+.Button-Area button{
+    background-color: #b4b4b4;
+    margin-right: 12px;
+    margin-top: 14px;
+    margin-left: 0;
+    font-size: 15px;
+    border: 0;
+    outline: none;
+    padding: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.5s;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+}
+
+.Button-Area button:hover{
+    background-color: #116feb;
+    color: #FFF;
+}
+
+.Button-Area a{
+    text-decoration: none;
+    color:black;
+    transition: all 0.5s;
+}
+
+.Button-Area a:hover{
+    color: #FFF;
+    transition: all 0.5s;
+}
+
+.buttonL{
+        display: flex;
+        width: 65px;
+        background-color: #b4b4b4;
+        margin-right: 12px;
+        margin-top: 14px;
+        margin-bottom: 30px;
+        margin-left: 0;
+        font-size: 15px;
+        border: 0;
+        outline: none;
+        padding: 12px;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: all 0.5s;
+        font-weight: bold;
+}
+
+.buttonL:hover{
+background-color: #116feb;
+color: #FFF;
+}
